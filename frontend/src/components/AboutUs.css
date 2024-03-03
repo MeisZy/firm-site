@@ -1,0 +1,67 @@
+element{
+    --border: 1px solid #636361;
+}
+
+.root {
+  line-height: 1.5;
+  font-weight: 100;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  }
+
+.aboutus ul li a{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-decoration:none;
+  font-size: 50px;
+  height: 40vh;
+  
+
+  width: 80%;
+  margin: auto;
+  padding: 1vh;
+
+  color: #636361;
+  text-transform: uppercase;
+
+  transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  -webkit-transition: opacity 1.5s ease-out;
+  -o-transition: opacity 1s ease-out;
+  /*border: 1px solid black;*/
+}
+
+.p1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 75%;
+  width:75%;
+  margin: auto;
+
+  margin: 0 auto;
+  font-size: 24px;
+
+  opacity: 0.1;
+  transition: opacity 0.5s ease-out;
+  -moz-transition: opacity 0.5 ease-out;
+  -webkit-transition: opacity 0.5s ease-out;
+  -o-transition: opacity 0.5s ease-out;
+
+  /*border: 1px solid #636361;*/
+
+}
+
+.p1 span{
+  position:fixed; 
+}
+
+.p1:hover {
+  opacity: 1.0;
+}

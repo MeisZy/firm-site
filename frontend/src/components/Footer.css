@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;500;800&display=swap');
+
+
+.footerproper {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+    width: 100%;
+    padding: 2.5vh;
+    background-color: #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 10px; 
+
+    margin-top:60px;
+
+    p{
+        color:white;
+    }
+}
+
+.footerproper ul a{
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0px;
+    
+    text-decoration: none;
+
+
+    color:white;
+
+    opacity: 0.75
+}
+
+
+.footerproper ul a:hover{
+    opacity: 1;
+}

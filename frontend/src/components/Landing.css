@@ -1,0 +1,60 @@
+element{
+    --grey: #636361;
+    --border: 1.5px solid #636361;
+}
+
+:root{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.landing{
+    text-decoration:none;
+    font-size: 50px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 80%;
+    margin: auto;
+    padding: 1vh;
+  
+    color: #636361;
+    text-transform: uppercase;
+  
+    opacity: 0.1;
+    transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+}
+
+.landing:hover{
+    opacity: 0.8;
+}
+
+.essay {
+    text-decoration:none;
+    font-size: 24px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 80%;
+    margin: auto;
+    padding: 1vh;
+  
+    color: #636361;
+}
+
+.datatexts{
+    display:flex;
+    justify-content:center;
+    text-align:justify;
+    
+    /*top, left, bottom, right*/
+    padding: 0 20vh 0 20vh;
+}
